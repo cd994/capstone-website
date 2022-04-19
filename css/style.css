@@ -1,0 +1,26 @@
+/* CSS Document */
+
+
+.row {
+	width: 100%;
+	float: left;
+	display: block;
+	padding-bottom: 20px;
+}
+
+header {
+	width: 100%;
+	background-color: #34447A;
+	top: 0;
+	z-index: 1000
+}
+
+.logo {
+	width: 25%;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	background: url("../images/pawswhitelogo.svg") no-repeat;
+	
+}
