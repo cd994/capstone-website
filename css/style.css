@@ -9,20 +9,20 @@
 }
 
 header {
-	width: 100%;
 	background-color: #34447A;
-	top: 0;
+	height: 100px;
 	z-index: 1000;
 }
 
 .logo {
 	width: 25%;
-	height: 50px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	height: 100px;
+	padding: 5px;
 	float: left;
-	background: url("../images/pawswhitelogo.svg") no-repeat;
-	
+}
+
+.logo img {
+	height: 100%;
 }
 
 .nav-toggle {
@@ -86,6 +86,7 @@ nav li a:active {
 
 .project-box {
 	background-color: #DDDDDD;
+	
 }
 
 .project-text {
@@ -100,7 +101,7 @@ nav li a:active {
 	text-decoration: none;
 }
 
-/* Hero Image*/
+/* Hero Images*/
 
 .hero-overlay {
 	position: absolute;
@@ -115,7 +116,7 @@ nav li a:active {
 
 .herophoto {
 	width: 100%;
-	height: 403px;
+	height: 805px;
 	background-image: url("../images/heroimage@2x.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -123,9 +124,71 @@ nav li a:active {
 	
 }
 
-/* About Us */
+.adoptherophoto {
+	width: 100%;
+	height: 900px;
+	background-image: url("../images/adoptherophoto@2x.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.fosterherophoto {
+	width: 100%;
+	height: 900px;
+	background-image: url("../images/fosterheroimage@2x.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.volunteerherophoto {
+	width: 100%;
+	height: 900px;
+	background-image: url("../images/volunteerheroimage@2x.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/* MISSION */
 
 .mission {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #7ACEF3;
+}
+
+.adopt {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #7ACEF3;
+}
+
+.adoption {
+	width: 100%;
+	padding: 100px 0;
+}
+
+.adoptionfees {
+	width: 100%;
+	padding: 100px 0;
+}
+
+
+/* FOSTER */
+
+.foster {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #7ACEF3;
+}
+
+/* VOLUNTEER */
+
+.volunteer {
 	width: 100%;
 	padding: 100px 0;
 	background-color: #7ACEF3;

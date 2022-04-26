@@ -21,6 +21,8 @@ body {
 	font-size: 100%;
 	line-height: 1.5em;
 	text-align: left;
+	padding: 0;
+	margin: 0;
 	}
 
 	/* Typography */
@@ -90,6 +92,11 @@ h6 {
 	line-height: 1.2
 }
 
+.hero-headline {
+	color: #EFF6FA;
+	text-align: center;
+	
+}
 
 /* Simple Grid - 12 columns 60/20 */
 
@@ -211,6 +218,7 @@ img {
 	color: #000000;
 	text-decoration: none;
 	cursor: pointer;
+	
 	
 }
 
