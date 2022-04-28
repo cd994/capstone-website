@@ -98,6 +98,7 @@ h6 {
 	color: #EFF6FA;
 	text-align: center;
 	
+	
 }
 
 /* Simple Grid - 12 columns 60/20 */
@@ -178,10 +179,8 @@ h6 {
 
 .container {
 	width: 940px;
-	display: block;
 	margin: 0 auto;
 	overflow: hidden;
-	clear: both;
 }
 
 img {
@@ -204,22 +203,21 @@ img {
 
 
 /* Buttons */
-.button-lesson {
-	width: 100%;
-	padding: 100px 0;
-	background-color: #94ddff;
-}
+
 
 .solid-btn {
-	display: inline-block;
+	display: block;
 	padding: 15px 25px;
 	background-color: #E3971D;
 	font-size: 20px;
 	border-radius: 30px;
-	margin-bottom: 30px;
+	margin: 30px auto;
+	width: 150px;
 	color: #000000;
 	text-decoration: none;
 	cursor: pointer;
+	text-align: center;
+	
 	
 	
 }
