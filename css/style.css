@@ -100,6 +100,7 @@ nav li a:active {
 	letter-spacing: .09em;
 	font-weight: 600;
 	text-decoration: none;
+	
 }
 
 /* Hero Images*/
@@ -125,10 +126,10 @@ nav li a:active {
 	
 }
 
-.adoptherophoto {
+.adoptheroimage {
 	width: 100%;
-	height: 600px;
-	background-image: url("../images/adoptherophoto@2x.jpg");
+	height: 800px;
+	background-image: url("../images/adoptheroimage@2x.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -136,7 +137,7 @@ nav li a:active {
 
 .fosterherophoto {
 	width: 100%;
-	height: 600px;
+	height: 800px;
 	background-image: url("../images/fosterheroimage@2x.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -145,8 +146,8 @@ nav li a:active {
 
 .volunteerherophoto {
 	width: 100%;
-	height: 600px;
-	background-image: url("../images/volunteerheroimage@2x.jpg");
+	height: 800px;
+	background-image: url("../images/volunteerherophoto@2x.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -154,7 +155,7 @@ nav li a:active {
 
 .campaignherophoto {
 	width: 100%;
-	height: 600px;
+	height: 800px;
 	background-image: url("../images/campaignheroimage@2x.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
