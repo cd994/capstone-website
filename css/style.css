@@ -1,6 +1,10 @@
 /* CSS Document */
 
 
+
+
+
+
 .row {
 	width: 100%;
 	float: left;
@@ -38,6 +42,7 @@ header {
 	display: flex;
 	align-items: center;
   }
+
   
 nav {
 	float: right;
@@ -76,6 +81,56 @@ nav li a:active {
 	color: #E6C760;
 }
 
+
+
+/* Media Query for desktop*/
+  
+@media only screen and (max-width:700px) {
+	nav ul {
+		width:100%;
+	   position: absolute;
+	   top: 75px;
+	   right: 0;
+	   z-index: 2;
+	}
+	nav ul li {
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	nav ul li a {
+   color: #FF8A01;	 
+	}
+	
+	.container {
+	  width: 50%;
+	  display: block;
+	}
+  
+	.row {
+	  width: 50%;
+	  display: block;
+	}
+
+	.columns_2 {
+		width: 200%;
+	  display: block;
+	}
+
+	.columns_3 {
+		width: 200%;
+	  display: block;
+	}
+
+	
+
+
+
+
+	
+  
+}
+  
 /* Projects */
 
 .projects {
@@ -225,6 +280,8 @@ nav li a:active {
 
 
 
+
+
 /*
 /*
 /*
@@ -254,7 +311,7 @@ nav li a:active {
   }
   
   .faq {
-	width: 1000px;
+	width: 900px;
 	margin: 0 auto;
 	background: white;
 	border-radius: 4px;
@@ -391,11 +448,5 @@ footer {
 	text-decoration: underline;
 }
 
-.fa-facebook-square,
-.fa-twitter-square,
-.fa-youtube-square,
-.fa-instagram-square {
-	color: #7ACEF3;
-	font-size: 2em; 
-	margin: 20px 5px 0 5px;
-}
+
+  

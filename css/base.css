@@ -12,6 +12,10 @@ html {
 	box-sizing: inherit;
 }
 
+
+
+
+
 /* Basic Styles*/
 
 body {
@@ -286,7 +290,7 @@ img {
 	background-color: #E3971D;
 	font-size: 20px;
 	border-radius: 30px;
-
+	margin: 520px auto;
 	width: 200px;
 	color: #000000;
 	text-decoration: none;
@@ -315,3 +319,7 @@ img {
 .hero-solid-submit-btn:hover {
 	background-color: #7199b3; 
 }
+
+
+  
+ 
